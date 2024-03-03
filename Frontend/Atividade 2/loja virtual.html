@@ -16,28 +16,106 @@
             </menu>
         </nav>
     </header>
-    <seccion id="">
+    <seccion id="cadastro">
         <h2>Meus dados</h2>
         <form>
             <fieldset>
                 <legend>Dados da conta</legend>
-                <label>Email</label>
-                <input></input>
+                <br><label>Email</label><br>
+                <input type="email" name="email" placeholder="ex:seuemail@gmail.com"><br><br>
+                <input type="checkbox" id="box1" name="box1" value="Email Promocional">
+                <label for="box1"> Quero receber em-mails promocionais</label><br><br>
+                <label>Senha</label><br>
+                <input type="password" name="senha" placeholder="use uma senha forte"><br><br>
             </fieldset>
         </form>
         <form>
             <fieldset>
                 <legend>Dados pessoais</legend>
-                <label>Email</label>
-                <input></input>
+                <br><label>Nome Completo</label><br>
+                <input type="name" name="nome" placeholder="ex: João da Silva"><br><br>
+                <label>como gostaria que a gente te chamasse? (opcional)</label><br>
+                <input type="name" name="nome" placeholder="ex: Joãozin"><br><br>
             </fieldset>
+            <input type="submit" value="Salvar alterações">
         </form>
     </seccion>
-    <seccion id="">
-        <h2></h2>
+    <seccion id="minhascompras">
+        <h2>Minhas Compras</h2>
+        <form>
+            <fieldset>
+                <label>Número do Pedido</label>
+                <label>Status concluído</label>
+                <label>Data 12/12/2020</label>
+                <label>Forma de Pagamento Cartão de crédito</label>
+                <label>Acompanhamento
+                    <button type="button" onclick="alert('Rastreio detalhado \n Seu pedido foi entregue com sucesso! \n Entregue por:GFL \n Código de rastreio: 123456789 \n Entregue em: 12/12/2020')">Rastreio detalhado</button>
+                </label>
+            </fieldset>
+            <fieldset>
+                <img src="" alt="Imagem">
+                <label>Suporte Articulado para Monitor e Notebook de 13 a  32 Vinik, Articulação Dupla - SMN500<br>
+                        Quantidade 1<br>
+                    </label>
+                
+                <label>R$ 99,90</label>
+            </fieldset>
+            <label for="selecao">Detalhes do pagamento e envio</label>
+            <select name="selecao" id="selecao">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+                <option value="3">Opção 3</option>
+            </select>
+        </form>
     </seccion>
-    <seccion id="">
-        <h2></h2>
+    <seccion id="avaliacao">
+        <h2>Avaliação do Produto</h2>
+        <form>
+            <fieldset>
+                <legend>Opinião sobre o produto</legend>
+                <br><label>Qual a cor do produto mais te agrada?</label><br>
+                <input type="color" id="coragrada" name="coragrada" value="#0000ff">
+                <select name="cor" id="cor">
+                    <option></option>
+                </select><br>
+                <br><legend>O produto é de qualidade?</legend>
+                <input type="radio" id="ct" name="ct">
+                <label for="html">Concordo Totalmente</label><br>
+                <input type="radio" id="c" name="c">
+                <label for="html">Concordo</label><br>
+                <input type="radio" id="nd" name="nd">
+                <label for="html">Não estou decidido</label><br>
+                <input type="radio" id="d" name="d">
+                <label for="html">Discordo</label><br>
+                <input type="radio" id="dt" name="dt">
+                <label for="html">Discordo Totalmente</label><br><br>
+                <label>Para você, quais parâmetros são mais importantes na qualidade do produto?</label><br>
+                <input type="checkbox" id="box2" name="box2" value="durabilidade">
+                <label for="box2"> Durabilidade</label><br><br>
+                <input type="checkbox" id="box3" name="box3" value="features">
+                <label for="box2"> Características acessórias ou Features</label><br><br>
+                <input type="checkbox" id="box4" name="box4" value="confiabilidade">
+                <label for="box2"> Durabilidade</label><br><br>
+                <input type="checkbox" id="box5" name="box5" value="aparência">
+                <label for="box2"> Aparência</label><br><br>
+                <label>Descreva a característica que mais chamou sua atenção no produto</label><br>
+                <input name="mensagem">
+
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Condições Atuais</legend>
+                <br><label>Adicione uma foto atual do produto</label><br>
+                <input type="file" id="arquivo" name="arquivo"><br><br>
+                
+                <label>Data de compra</label><br>
+                <input type="date" id="dcompra" name="dcompra"><br><br>
+                <label>Deixe um comentário sobre as condições do produto</label><br>
+                <textarea name="mensagem"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar avaliação">
+        </form>
     </seccion>
     
 </body>
