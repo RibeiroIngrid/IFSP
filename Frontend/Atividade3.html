@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+</head>
+<body>
+    <header>
+        <h1> Meus Pedidos</h1>
+        <nav>
+            <menu>
+                <li><a href="">Meus dados</a></li>
+                <li><a href="">Minhas compras</a></li>
+                <li><a href="">Avaliar produto</a></li>
+            </menu>
+        </nav>
+    </header>
+    <seccion id="cadastro">
+        <h2>Meus dados</h2>
+        <form action="#">
+            <fieldset class="section section--column margin--bottom">
+                <legend>Dados da conta</legend>
+                <br><label for="email">Email</label><br>
+                <input class="margin--bottom" type="email" name="email" placeholder="ex:seuemail@gmail.com"><br><br>
+                <input type="checkbox" id="box1" name="box1" value="Email Promocional">
+                <label for="box1"> Quero receber em-mails promocionais</label><br><br>
+                <label>Senha</label><br>
+                <input class="margin--bottom" type="password" name="senha" placeholder="use uma senha forte"><br><br>
+            </fieldset>
+        </form>
+        <form action="#">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <br><label for="name" required>Nome Completo</label><br>
+                <input class="margin--bottom" type="name" name="nome" placeholder="ex: João da Silva"><br><br>
+                <label for="nickname">como gostaria que a gente te chamasse? (opcional)</label><br>
+                <input id="nickname" class="margin--bottom" type="name" name="nickname" placeholder="ex: Joãozin"><br><br>
+            </fieldset>
+            <input type="submit" value="Salvar alterações">
+        </form>
+    </seccion>
+    <seccion id="minhascompras">
+        <h2>Minhas Compras</h2>
+        <div class="section section--row section--space border margin--bottom">
+            <div class="section section--column">
+                <p>Número do Pedido</p>
+                <p>#37945982</p>
+            </div>
+            <div class="section section--column">
+                <p>Status</p>
+                <p>Concluído</p>
+            </div>
+            <div class="seccion section--column">
+                <p>Data</p>
+                <p>12/12/2020</p>
+            </div>
+            <div class="section section--column">
+                <p>Forma de pagamento</p>
+                <p>Cartão de crédito</p>
+            </div>
+            <div class="section section--column">
+                <p>Acompanhamento</p>
+                <button type="button" onclick="dialog.showModal()">Rastreio detalhado</button>
+                <dialog id="dialog">
+                    <p><strong>Rastreio detalhado</strong></p>
+                    <p>Seu pedido foi entregue com sucesso!</p>
+                    <p>Entregue por: GFL</p>
+                    <p>Código de rastreio: 123456789</p>
+                    <p>Entregue em: 12/12/2020</p>
+                    <button type="button" onclick="dialog.close()">Fechar</button>
+                </dialog>
+            </div>
+        </div>
+        <div class="section section--row section--space border margin--bottom">
+            <figure>
+                <img width="100" height="70" src="./img/100x70.png" alt="Imagem do produto - Suporte articulado para monitor e notebook">
+            </figure>
+            <div class="section section--column">
+                <strong>Suporte Articuladopara Monitor e Notebook de 13 a 32 Vinik, Articulação Dupla - SMN500</strong>
+                <p>Quantidade: 1</p>
+                <a href="#">Avaliar produto</a>
+            </div>
+            <p>R$ 99,00</p>
+        </div>
+        <details>    
+            <summary class="pointer">Detalhes do pagamento e envio</summary>
+                <div class="section section--row section--space">
+                    <div>
+                        <strong>Endereço de entrega</strong>
+                        <p>Avenida Estelita Falcão</p>
+                        <p>Número 12, Centro</p>
+                        <p>CEP 48.170-970 - Agua Fria/BA</p>
+                    </div>
+                    <div>
+                        <strong>Forma de pagamento</strong>
+                        <p>Cartão de crédito</p>
+                        <p>Master Card **** **** **** 1234</p>
+                        <p>Titular: João da Silva</p>
+                    </div>
+                <div>
+                    <strong>Frete</strong>
+                    <p>R$ 15,52</p>
+                    <p>Enviado por <strong>GFL</strong></p>
+                    <p>Entregue</p>
+                </div>
+            </div>
+        </details>
+        <hr>
+    </section>
+    <seccion id="avaliacao">
+        <h2>Avaliação do Produto</h2>
+        <form action="#">
+            <fieldset class="section section--column margin--bottom">
+                <legend>Opinião sobre o produto</legend>
+                <label for="cor"><strong>Qual cor do produto mais te agrada?</strong></label>
+                    <input type="color" id="cor" value="#302727" list="cores-produto" />
+                    <datalist id="cores-produto">
+                        <option>#302727</option>
+                        <option>#ba2d2d</option>
+                        <option>#f2511b</option>
+                        <option>#f2861b</option>
+                        <option>#c7c730</option>
+                    </datalist>
+                    <br/>
+                    <label for="qualidade"><strong>O produto é de qualidade?</strong></label>
+                    <div class="section section--row">
+                        <label for="html">Concordo Totalmente</label><br>
+                        <input type="radio" id="ct" name="ct">
+                    </div>
+                    <div class="section section--row"></div>
+                        <label for="html">Concordo</label><br>
+                        <input type="radio" id="c" name="c">
+                    </div>
+                    <div class="section section--row"></div>
+                        <label for="html">Não estou decidido</label><br>
+                        <input type="radio" id="nd" name="nd">
+                    </div>
+                    <div class="section section--row"></div>
+                        <label for="html">Discordo</label><br>
+                        <input type="radio" id="d" name="d">
+                    </div>
+                    <div class="section section--row"></div>
+                        <label for="html">Discordo Totalmente</label><br><br>
+                        <input type="radio" id="dt" name="dt">
+                    </div>
+                <label for="parametros"><strong>Para você, quais parâmetros são mais importantes na qualidade do produto?</strong></label><br>
+                <div class="section section--row">
+                    <input type="checkbox" id="box2" name="box2" value="durabilidade">
+                    <label for="box2"> Durabilidade</label><br><br>
+                </div>
+                <div class="section section--row">                  
+                    <input type="checkbox" id="box3" name="box3" value="features">
+                    <label for="box2"> Características acessórias ou Features</label><br><br>
+                </div>
+                <div class="section section--row">
+                    <input type="checkbox" id="box4" name="box4" value="confiabilidade">
+                    <label for="box2"> Durabilidade</label><br><br>
+                </div>
+                <div class="section section--row">
+                    <input type="checkbox" id="box5" name="box5" value="aparência">
+                    <label for="box2"> Aparência</label><br><br>
+                </div>
+                <div class="section section--row">
+                    <label>Descreva a característica que mais chamou sua atenção no produto</label><br>
+                    <input type="text" name="descricao" id="descricao" list="caracteristicas-produto">
+                    <datalist id="caracteristicas-produto">
+                        <option>Cor</option>
+                        <option>Tamanho</option>
+                        <option>Peso</option>
+                        <option>Material</option>
+                    </datalist>
+                </fieldset>
+                <fieldset class="section section--column margin--bottom">
+                    <legend>Condições atuais</legend>
+                    <label for="arquivo"><strong>Adicione uma foto atual do produto</strong></label>
+                    <input class="margin--bottom" type="file" name="arquivo" id="arquivo">
+                    <label for="data"><strong>Data da compra</strong></label>
+                    <input class="margin--bottom" type="date" name="data" id="data">
+                    <label for="comentario"><strong>Deixe um comentário sobre as condições do produto</strong></label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">Eviar avaliação</button>
+            </form>
+    </seccion>
+</body>
+</html>
