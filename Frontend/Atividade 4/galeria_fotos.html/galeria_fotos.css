@@ -1,38 +1,14 @@
-.img1{
-    border-style: solid;
+.box{
     width: 200px;
-}
-.img2{
-    border-style: solid;
-    width: 200px;
-}
-.img3{
-    border-style: solid;
-    width: 200px;
-}
-.img4{
-    border-style: solid;
-    width: 200px;
-}
-.img5{
-    border-style: solid;
-    width: 100px;
-}
-.img6{
     border-style: solid;
 }
-.img7{
-    border-style: solid;
-}
-.img8{
-    border-style: solid;
-}
-.img9{
-    border-style: solid;
-}
+
 .container{
+    height: 1000px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
+    align-content: space-between;
     
 }
