@@ -1,10 +1,26 @@
 .container{
-    height: 900px;
-    width: 900px;
+    height: 1500px;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    padding: 100px;
     
+}
+.card {
+    box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.71);/*add sombra em um ou mais elementos*/
+    width: 200px;
+    height: 500px;
+}
+.card-image{
+    width: 200px;
+    height: auto;
+}
+.card-button{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background-color: darkgrey;
 }
