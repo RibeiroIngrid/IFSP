@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: #f07313;
+    min-width: 500px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-button {
+    color: #f07313;
+    border: 1px solid #f07313;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 4px;
+    font-weight: 300;
+}
+
+.nav-input {
+    border: 1px solid #f07313;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 4px;
+    font-weight: 300;
+}
