@@ -1,14 +1,14 @@
-.box{
-    width: 200px;
-    border-style: solid;
-}
-
 .container{
-    height: 1000px;
-    width: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    justify-items: center;
+    gap: 20px;
+    justify-content: center;
+   
+}
+img{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
 }
