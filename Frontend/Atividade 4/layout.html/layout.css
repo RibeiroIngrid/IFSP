@@ -1,0 +1,68 @@
+.pink {
+    background-color: rgb(255, 3, 159);
+    color: #0e0000;
+}
+
+.green {
+    background-color: #4ebc05;
+    color: #0e0000;
+}
+
+.orange {
+    background-color: #ff8826;
+    color: #0e0000;
+}
+
+.purple {
+    background-color: #ec06f0;
+    color: #0e0000;
+}
+
+.blue {
+    background-color: #3608f2;
+    color: #0e0000;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 200px auto 150px;
+    grid-template-columns: 200px auto 150px;
+    grid-template-areas:
+        "header header header"
+        "nav article div"
+        "nav footer footer";
+    gap: 10px;
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    grid-area: header;
+}
+
+.box2 {
+    grid-area: nav;
+}
+
+.box3 {
+    grid-area: article;
+}
+
+.box4 {
+    grid-area: div;
+}
+
+.box5 {
+    grid-area: footer;
+}
+
+.box-text{
+    font-size: 16px;
+    font-weight: 700;
+}
