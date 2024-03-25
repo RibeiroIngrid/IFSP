@@ -1,5 +1,6 @@
 .nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 240px 200px;
     align-items: center;
     justify-content: space-between;
     padding: 0px 40px;
@@ -9,8 +10,9 @@
 
 .nav-list{
     list-style: none;
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    
     padding: 0;
 }
 
@@ -36,6 +38,6 @@
     border: 1px solid #f07313;
     border-radius: 10px;
     background-color: #fff;
-    padding: 4px;
+    
     font-weight: 300;
 }
