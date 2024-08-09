@@ -1,0 +1,1 @@
+Utilizou-se a mesma API com Python com banco de dados relacional sem ORM
