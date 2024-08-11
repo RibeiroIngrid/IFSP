@@ -3,8 +3,9 @@ import './App.css';
 
 function TodoApp() {
   const [todos, setTodos] = useState([]);
-
+//useEffect buscar os dados da API quando o componente é montado.
   useEffect(() => {
+    //fetcTodos busca os dados da API e atualiza o estado todos.
     const fetchTodos = async () => {
       const response = await fetch('https://dummyjson.com/todos');
       const data = await response.json();
@@ -12,7 +13,7 @@ function TodoApp() {
     };
     fetchTodos();
   }, []);
-
+//encontra o todo com o ID correspondente e inverte o valor de completed.
   const handleToggleComplete = (id) => {
     setTodos(todos.map((todo) =>
       todo.id === id ? { ...todo, completed: !todo.completed } : todo
