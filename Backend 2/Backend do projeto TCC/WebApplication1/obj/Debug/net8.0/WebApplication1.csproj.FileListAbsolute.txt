@@ -1,0 +1,72 @@
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\appsettings.json
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+R:\TESTEapi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+R:\TESTEapi\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\appsettings.json
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\TCC Ingrid\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+C:\TCC Ingrid\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
