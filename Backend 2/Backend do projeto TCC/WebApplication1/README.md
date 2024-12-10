@@ -1,4 +1,4 @@
-# TCC Ingrid
+# TCC WebApp gerenciamento passeios e excursões
 
 ## Descrição
 
