@@ -1,16 +1,28 @@
-# excursao
+📱 ExploraTour - Gerenciamento de Viagens e Passeios 🚀
+📝 Descrição
+O ExploraTour é um protótipo de aplicativo desenvolvido em Flutter que conecta agências de turismo e guias a viajantes que desejam explorar destinos de forma organizada. Com funcionalidades como cadastro de excursões, reservas integradas e avaliações, o app busca facilitar a experiência de planejamento de viagens. 🌍✈️
 
-A new Flutter project.
+🎯 Objetivos
+🏷️ Cadastro de viagens/passeios por administradores (agências/guias).
 
-## Getting Started
+📸 Visualização de destinos com fotos e detalhes para usuários.
 
-This project is a starting point for a Flutter application.
+💳 Sistema de reserva integrado com confirmação por e-mail.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+👥 Público-Alvo
+Administradores: Agências de turismo, guias autônomos e empresas de ecoturismo. 🏢
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Usuários: Turistas, grupos de amigos/família e aventureiros. 👨‍👩‍👧‍👦
+
+🔧 Funcionalidades Principais
+🗂️ Catálogo de excursões com filtros (destino, preço, tipo).
+
+🔐 Cadastro/Autenticação via Firebase (usuários e administradores).
+
+📅 Reservas com integração de pagamento.
+
+🛠️ Painel do Administrador para gerenciar viagens e reservas.
+
+📢 Avaliações com comentários e notas.
+
