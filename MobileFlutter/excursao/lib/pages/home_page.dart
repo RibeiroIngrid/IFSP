@@ -31,8 +31,25 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(title: const Text('Explora Tour'), centerTitle: true),
+      backgroundColor: const Color(0xFFB0D9C1),
+      appBar: AppBar(
+        title: const Text(
+          'Explora Tour',
+          style: TextStyle(color: Colors.white),
+        ),
+        centerTitle: true,
+        backgroundColor: const Color(0xFF025949),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.person, color: Colors.white),
+            onPressed: () {
+              // TODO redirect to login widget when the icon is pressed
+              print('Person icon pressed');
+            },
+          ),
+        ],
+      ),
+
       body: SingleChildScrollView(
         child: Column(
           children: [
