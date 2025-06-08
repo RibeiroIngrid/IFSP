@@ -1,5 +1,7 @@
-import 'package:excursao/pages/home_page.dart';
+import 'package:excursao/constants/colors.dart';
+import 'package:excursao/pages/home.dart';
 import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const HomeScreen(),
+      home: const Home(),
     );
   }
 }

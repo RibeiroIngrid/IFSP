@@ -1,16 +1,18 @@
-import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:excursao/constants/colors.dart';
+import 'package:excursao/main.dart';
+import 'package:excursao/pages/login_form_screen.dart';
+import 'package:excursao/pages/sign_up_screen.dart';
+import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  // StatefulWidget requer um State correspondente
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<Home> createState() => _HomeState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
-  // Dados para os carrosséis (exemplo)
+class _HomeState extends State<Home> {
   final List<String> carousel1Items = [
     'assets/animalia.png',
     'assets/hopiHari.png',
@@ -31,25 +33,29 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFB0D9C1),
+      backgroundColor: AppColors.backgroundGreen,
       appBar: AppBar(
         title: const Text(
           'Explora Tour',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        backgroundColor: const Color(0xFF025949),
+        backgroundColor: AppColors.darkGreen,
         actions: <Widget>[
           IconButton(
             icon: const Icon(Icons.person, color: Colors.white),
             onPressed: () {
-              // TODO redirect to login widget when the icon is pressed
-              print('Person icon pressed');
+              // Redirect to LoginScreen when the icon is pressed
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const LoginFormScreen(),
+                ),
+              );
             },
           ),
         ],
       ),
-
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -68,8 +74,6 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 18, color: Colors.grey),
             ),
             const SizedBox(height: 30),
-
-            // Primeiro carrossel - Widget Stateful (mantém estado do slide atual)
             _buildCarouselSection(
               title: 'Passeios',
               items: carousel1Items,
@@ -80,10 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
               },
             ),
-
             const SizedBox(height: 40),
-
-            // Segundo carrossel - Widget Stateful (mantém estado do slide atual)
             _buildCarouselSection(
               title: 'Viagens',
               items: carousel2Items,
@@ -94,10 +95,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
               },
             ),
-
             const SizedBox(height: 30),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                // Redirect to LoginScreen when the button is pressed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const SignUpScreen()),
+                );
+              },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
                 padding: const EdgeInsets.symmetric(
@@ -108,7 +114,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
-              child: const Text('Começar', style: TextStyle(fontSize: 18)),
+              child: const Text(
+                'Criar Cadastro',
+                style: TextStyle(fontSize: 18),
+              ),
             ),
             const SizedBox(height: 20),
           ],
@@ -117,7 +126,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Widget Stateless - Método auxiliar para construir seções de carrossel
   Widget _buildCarouselSection({
     required String title,
     required List<String> items,
@@ -138,15 +146,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   margin: const EdgeInsets.all(5.0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      // ← Isso é para imagens locais
-                      item,
-                      fit: BoxFit.cover,
-                      width: 300,
-                    ),
+                    child: Image.asset(item, fit: BoxFit.cover, width: 300),
                   ),
                 );
-              }).toList(), // Não esqueça do toList()
+              }).toList(),
           options: CarouselOptions(
             height: 150,
             autoPlay: true,
