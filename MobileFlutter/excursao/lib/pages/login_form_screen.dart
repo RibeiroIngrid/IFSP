@@ -1,6 +1,7 @@
 import 'package:excursao/constants/colors.dart';
 import 'package:excursao/main.dart';
 import 'package:excursao/pages/main_menu_screen.dart';
+import 'package:excursao/pages/admin_menu.dart';
 import 'package:flutter/material.dart';
 
 class LoginFormScreen extends StatelessWidget {
@@ -43,7 +44,7 @@ class LoginFormScreen extends StatelessWidget {
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const MainMenuScreen(),
+                    builder: (context) => const AdminMenu(),
                   ),
                 );
               },
